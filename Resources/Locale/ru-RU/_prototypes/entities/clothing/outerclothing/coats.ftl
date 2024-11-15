@@ -82,3 +82,6 @@ ent-ClothingOuterCoatSpaceAsshole = куртка космического муд
     .desc = И вот он был...
 ent-ClothingOuterCoatExpensive = дорогая шуба
     .desc = Очень пушистая розовая шуба, сделанная из очень дорогого меха (очевидно).
+
+ent-ClothingOuterCoatRain = Дождевик
+    .desc = Зачем держать зонтик в руке, когда есть это ?!

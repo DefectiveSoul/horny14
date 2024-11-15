@@ -47,6 +47,7 @@
     - id: SmokingPipeFilledTobacco
     - id: FlippoLighter #Not the steal objective, only difference from normal detective trenchcoat
 
+
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatGentle
@@ -481,3 +482,20 @@
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterCoatRain
+  name: Raincoat
+  description: Why make you hand bussy with umbrella, when you have this ?!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/raincoat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/raincoat.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodRainHood
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.65 # like... liquid-proof...

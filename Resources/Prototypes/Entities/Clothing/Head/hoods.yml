@@ -765,3 +765,21 @@
   - type: HideLayerClothing
     slots:
     - Hair
+    -
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodRainHood
+
+  name: raincoat hood
+  description: It's like regular hood, but waterproof and ruber-ish !
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hoods/Coat/hoodrain.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hoods/Coat/hoodrain.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
