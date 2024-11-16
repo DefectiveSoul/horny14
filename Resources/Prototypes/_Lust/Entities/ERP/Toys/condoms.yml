@@ -1,0 +1,100 @@
+- type: entity
+  parent: BaseItem
+  id: LustCondomSmoothPacked
+  name: packed smooth condom
+  description: Not all grounds wish to have seeds
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/snacks.rsi
+    state: chocolatebar
+  - type: Item
+    size: Tiny
+  - type: SpawnItemsOnUse
+    items:
+      - id: LustCondomSmooth
+      - id: LustCondomWrapper
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomRibbedPacked
+  name: packed ribbed condom
+  description: Not all grounds wish to have seeds
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/snacks.rsi
+    state: chocolatebar
+  - type: Item
+    size: Tiny
+  - type: SpawnItemsOnUse
+    items:
+      - id: LustCondomRibbed
+      - id: LustCondomWrapper
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomSmooth
+  name: smooth condom
+  description: Not all grounds wish to have seeds
+  components:
+  - #cname
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomRibbed
+  name: ribbed condom
+  description: Not all grounds wish to have seeds
+  components:
+  - #cname
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomWearedSmooth
+  name: taked off condom
+  description: It sorta expected to be used...
+  components:
+  - #cname
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomWearedRibbed
+  name: taked off condom
+  description: It sorta expected to be used...
+  components:
+  - #cname
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomSmoothUsed
+  name: used condom
+  description: Are you gonna dispose of it ?
+  components:
+  - #cname
+- type: entity
+  parent: BaseItem
+  id: LustCondomRibbedUsed
+  name: used condom
+  description: Are you gonna dispose of it ?
+  components:
+  - #cname
+
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomUsedTied
+  name: tied condom
+  description: Secured, contained... and still protected
+  components:
+  - #cname
+
+- type: entity
+  parent: BaseItem
+  id: LustCondomWrapper
+  name: condom wrapper
+  description: You're most likely need what where inside...
+  components:
+  - #cname
