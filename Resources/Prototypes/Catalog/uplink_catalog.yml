@@ -1869,6 +1869,19 @@
   categories:
     - UplinkWearables
 
+#lust-sugested
+- type: listing
+  id: UplinkLustClothingEyesSyndieSmartNVG
+  name: uplink-clothing-eyes-syndicate-smartnvg-name
+  description: uplink-clothing-eyes-syndicate-smartnvg-desc
+  productEntity: LustClothingEyesSyndieSmartNVG
+  cost:
+    Telecrystal: 2
+  categories:
+    - UplinkWearables
+#lust-sugested
+
+
  # Pointless
 
 - type: listing

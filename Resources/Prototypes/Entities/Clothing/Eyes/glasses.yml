@@ -268,3 +268,23 @@
   - type: NightVisionDevice #Sunrise - night visions
     displayColor: "#44b855"
     displayShader: NVDDisplay
+
+#lust nvg for C.Sun infinltaror troops
+- type: entity
+  parent: ClothingEyesBase
+  id: LustClothingEyesSyndieSmartNVG
+  name: cheap sunglasses
+  description: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+  - type: NightVisionDevice #Sunrise - night visions
+    displayColor: "#696880" # since amplificator from camera instead of full-tube
+    displayShader: NVDDisplay
+  - type: Tag
+  - type : FlashImmunity # remove if wana balance out ?
+    tags:
+  - type: IdentityBlocker
+    coverage: EYES
