@@ -1,0 +1,16 @@
+- type: construction
+  name: Gas Canister
+  id: StorageCanister
+  description: A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
+  graph: StorageCanisterGraph
+  startNode: start
+  targetNode: finished
+  category: construction-category-structures
+  icon:
+    sprite: Structures/Storage/canister.rsi
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: False
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

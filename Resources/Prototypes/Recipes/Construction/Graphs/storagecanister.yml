@@ -1,0 +1,14 @@
+- type: constructionGraph
+  id: StorageCanisterGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: finished
+          steps:
+            - material: Plasteel
+              amount: 4
+              doAfter: 4
+
+    - node: finished
+      entity: StorageCanister
